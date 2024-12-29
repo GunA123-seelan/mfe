@@ -28,29 +28,17 @@ export class DocumentUpZipDownComponent {
   //   { name: 'document3.txt', content: 'This is the third document content.' },
   // ];
 
-  // documents = [
-  //   {
-  //     name: 'document1.xls',
-  //     content: 'data:application/vnd.ms-excel;base64,UEsDBBQAAAAIAFc9YPJDBTkZDqg9pLKHcGAsUBIgRqaM6gFAAA9XFSnG1MFAEDt0/34g/d10O8kZYh3DwdBHiVThAgOGdeHqaYrfa43Oekn88HvgeHrOBh8A61PzVXNO46H17c9pSO2N30=' // Base64 Excel file
-  //   },
-  //   {
-  //     name: 'image1.jpg',
-  //     content: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAoHBwkIDwoHCAoLBw4MBgsMBw4NDw8MDA4QDw4YGRgZGBoYHBwZGBoYHBsZGR4ZGhsYHB4YHRYfISImIi5pIhYpJz45KyAhLx46LDAhLU8j/2wBDAQwIEAwWEgIuRjp0KC8+PjrF9/rZhg0p' // Base64 JPG image
-  //   },
-  //   {
-  //     name: 'document2.pdf',
-  //     content: 'data:application/pdf;base64,JVBERi0xLjQKJeLjz8ou77+1vlgz6U6b3rbUchH3y0BFuOZ77Rr9OtUtVwH46BPhZdHbeebzqUwU+Pmmz1wZp53JhbXlz0z5y3jTzT8zK5FyBpklnH3bHEwJ5VYc4m8dVnFmjtxF0ePDRpHRhKnlgAoqh7fxOg==' // Base64 PDF file
-  //   }
-  // ];
 
 
   documents: any[] = [
+    { name: 'document1.txt', content: 'This is the first document content.' },
     {
-      name: 'Student Image Upload',
-      content: 'https://d1hfw03022jglv.cloudfront.net/2887/student_img/AZLAN_20241128110756.jpg'
+      name: 'dsdfsd.jpg',
+      content:
+        'https://images-americanas.b2w.io/produtos/4158226624/imagens/cactos-pelucia-dancante-e-falante-toca-musica-repete-fala-brinquedo-cactus-infantil-canta-danca-fala-imita-gira-luz-pronta-entrega/4158226641_1_xlarge.jpg',
     },
     {
-      name: 'document1111.jpg',
+      name: 'do.jpg',
       content:
         'https://images-americanas.b2w.io/produtos/4158226624/imagens/cactos-pelucia-dancante-e-falante-toca-musica-repete-fala-brinquedo-cactus-infantil-canta-danca-fala-imita-gira-luz-pronta-entrega/4158226641_1_xlarge.jpg',
     }
